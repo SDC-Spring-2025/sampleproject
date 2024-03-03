@@ -1,0 +1,1 @@
+mongodb+srv://dane:test@testcluster.kyu97aj.mongodb.net/?retryWrites=true&w=majority
