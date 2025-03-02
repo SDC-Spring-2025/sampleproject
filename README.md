@@ -5,7 +5,7 @@ Steps to run locally:
 2. Clone the repo and change to the project directory
 
 ```
-git clone https://github.com/SDC-Spring-2024/sampleproject.git
+git clone https://github.com/SDC-Spring-2025/sampleproject.git
 cd sampleproject
 ```
 
