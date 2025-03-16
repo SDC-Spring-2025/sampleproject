@@ -7,7 +7,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     const db = client.db('sample_restaurants');
     const usersCollection = db.collection('restaurants');
 
-    const restaurants = await usersCollection.find({}).limit(25).toArray();
+    const restaurants = await usersCollection.find({}).limit(100).toArray();
     res.status(200).json(restaurants);
   } catch (error) {
     console.error('Error fetching users:', error);
